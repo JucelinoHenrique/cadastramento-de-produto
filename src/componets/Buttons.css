@@ -1,0 +1,23 @@
+
+.Container-Buttons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Button-voltar,.Button-cadastrar{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: yellow;
+    color: rgb(64, 63, 63);
+    font-weight: bold;
+}
+
+.Button-voltar:hover,.Button-cadastrar:hover{
+    background-color: black;
+    border: 1px solid yellow;
+    color: yellow;
+}

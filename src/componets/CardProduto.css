@@ -1,0 +1,52 @@
+
+.Container-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 200px;
+    padding-bottom: 10px;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(36, 36, 36);
+    background-color: rgb(242, 255, 159);
+}
+
+.Container-Card-Nome{
+    display: flex;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Container-Card-Nome h2{
+    padding-left: 10px;
+}
+
+.Card-Codigo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.Card-Codigo h3{
+   padding-left: 10px;
+}
+
+.Container-Card-Info{
+    margin-bottom: 5px;
+}
+
+.Button-Close{
+    padding-top: 9px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    background: none;
+}
